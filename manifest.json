@@ -1,0 +1,33 @@
+{
+	"manifest_version": 3,
+	"name": "hide-yt-popup",
+	"version": "0.1",
+	"description": "hides youtube popup",
+	"homepage_url": "https://github.com/",
+	"icons": {
+		"64": "icons/hide-yt-popup_Icon.svg"
+	},
+
+	"permissions": ["tabs", "activeTab", "scripting"],
+
+    "host_permissions": ["https://www.youtube.com/*"],
+
+	"action": {
+		"default_icon": {
+            "64": "icons/hide-yt-popup_Icon.svg"
+		},
+		"default_title": "hide-yt-popup"
+	},
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+	"content_scripts": [
+		{
+			"matches": ["https://www.youtube.com/*"],
+			"js": ["hide.js"]
+		}
+	]
+}
+
