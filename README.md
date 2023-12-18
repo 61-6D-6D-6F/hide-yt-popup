@@ -3,7 +3,7 @@ Firefox extension that hides popup on youtube.
 
 ## Description
 This firefox extension is hiding the popup window on youtube after 2 seconds when a tab is loaded, reloaded or navigated to.
-**TODO:** enable scrolling after hiding the popup
+**TODO:** enable mouse scrolling after hiding the popup
 
 ## Getting Started
 ### Dependencies
