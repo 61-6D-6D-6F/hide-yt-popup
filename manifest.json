@@ -3,14 +3,14 @@
 	"name": "hide-yt-popup",
 	"version": "0.1",
 	"description": "hides youtube popup",
-	"homepage_url": "https://github.com/",
+	"homepage_url": "https://github.com/61-6D-6D-6F/hide-yt-popup",
 	"icons": {
 		"64": "icons/hide-yt-popup_Icon.svg"
 	},
 
 	"permissions": ["tabs", "activeTab", "scripting"],
 
-    "host_permissions": ["https://www.youtube.com/*"],
+    "host_permissions": ["<all_urls>"],
 
 	"action": {
 		"default_icon": {
